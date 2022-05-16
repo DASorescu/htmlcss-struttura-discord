@@ -12,7 +12,9 @@
 /* utils */
 .flex{
     display: flex;
-
+}
+.space-between{
+    justify-content: space-between;
 }
 .inline-block{
     display: inline-block;
@@ -21,28 +23,32 @@
     width: 1080px;
     margin: 0 auto;
 }
-body{
-    
+
+.bg-color{
+    background-color: var(--gray);
 }
+
 /* header-section-style */
 header{
+    display: flex;
+    justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: var(--blue);
     min-height: 450px;
     min-width: 100%;
-    justify-content: space-between;
 }
 
 .d-logo{
     background-color: black;
-    min-height: 50px;
+    max-height: 50px;
     width: 300px;
     border: 1px solid #F6F6F6;
 }
 
 .nav{
     background-color: black;
-    min-height: 50px;
+    max-height: 50px;
     width: 300px;
     border: 1px solid #F6F6F6;
 }
@@ -50,7 +56,53 @@ header{
 .push{
     border: 1px solid #F6F6F6;
     background-color: black;
-    min-height: 50px;
+    max-height: 50px;
     width: 300px;
 }
 
+.mid-head{
+    background-color: navy;
+    min-height: 100px;
+    width: 1080px;
+}
+
+/* main */
+.group-section{
+    margin-top: 50px;
+    
+    background-color: #fff;
+    
+}
+.chat-section{
+margin-top: 50px;
+}
+
+.fandom-section{
+margin-top: 50px;
+}
+.left-side{
+    height: 100px;
+    width: 50%;
+    background-color: aqua;
+    display: inline-block;
+}
+.right-side{
+    height: 100px;
+    width: 50%;
+    background-color: burlywood;
+    display: inline-block;
+}
+
+.titolo{
+    height: 50px;
+    background-color: navy;
+}
+.descrizione{
+    height: 50px;
+    background-color: yellow;
+}
+
+.immagine{
+    height: 200px;
+    background-color: green;
+}
