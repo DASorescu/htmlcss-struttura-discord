@@ -9,7 +9,48 @@
     --lightblak:#23272A;
 
 }
+/* utils */
+.flex{
+    display: flex;
 
-body{
-    ;
 }
+.inline-block{
+    display: inline-block;
+}
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+body{
+    
+}
+/* header-section-style */
+header{
+    flex-direction: row;
+    background-color: var(--blue);
+    min-height: 450px;
+    min-width: 100%;
+    justify-content: space-between;
+}
+
+.d-logo{
+    background-color: black;
+    min-height: 50px;
+    width: 300px;
+    border: 1px solid #F6F6F6;
+}
+
+.nav{
+    background-color: black;
+    min-height: 50px;
+    width: 300px;
+    border: 1px solid #F6F6F6;
+}
+
+.push{
+    border: 1px solid #F6F6F6;
+    background-color: black;
+    min-height: 50px;
+    width: 300px;
+}
+
